@@ -70,10 +70,12 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Art.aspx" />
+    <Content Include="CartPage.aspx" />
     <Content Include="Computer.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Language.aspx" />
+    <Content Include="LoginPage.aspx" />
     <Content Include="Math.aspx" />
     <Content Include="News.aspx" />
     <Content Include="StyleSheet\StyleSheet1.css" />
@@ -93,6 +95,13 @@
     </Compile>
     <Compile Include="Art.aspx.designer.cs">
       <DependentUpon>Art.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CartPage.aspx.cs">
+      <DependentUpon>CartPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartPage.aspx.designer.cs">
+      <DependentUpon>CartPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Computer.aspx.cs">
       <DependentUpon>Computer.aspx</DependentUpon>
@@ -121,6 +130,13 @@
     </Compile>
     <Compile Include="Language.aspx.designer.cs">
       <DependentUpon>Language.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.master.cs">
       <DependentUpon>MasterPage.master</DependentUpon>

@@ -44,7 +44,11 @@
     <form id="form1" runat="server">
     <div id="menu-outer">
        <div runat="server" id="banner1">
-            <h1>BookShop</h1>
+            <div>
+                <Span style="font-size:40px; text-align:center;">BookShop</Span>
+                <a href="LoginPage.aspx"<span style="float:right; margin-top:0px; color:white; margin-right:20px;">Login</span></a><br />
+                <a href="CartPage.aspx"<span style="float:right;margin-top:-25px; color:white; margin-right:20px;">Cart</span></a>
+            </div>
         </div>
         <p />
         <asp:SiteMapDataSource ID="mySiteMapDataSource" runat="server" />
