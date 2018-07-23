@@ -61,7 +61,7 @@
         </asp:ContentPlaceHolder>
         </div>
         <div>
-            <h3>Copyright:</h3>
+            <h6 style="text-align:center;">Copyright:Comp229_FinalProject ZilangLiang&JianyuLiu</h6>
         </div>
             
         
